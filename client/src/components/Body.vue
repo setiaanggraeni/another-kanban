@@ -40,7 +40,7 @@
     </div>
     <div class="col sm-3">
       <div class="card" style="width: 18rem;">
-        <button type="button" class="btn btn-success">Doing</button>
+        <button type="button" class="btn btn-success">Done</button>
         <div class="card-body" v-for="(todo, index) in doneTodos" v-bind:key="index">
           <h5 class="card-title">{{todo.todo}}</h5>
           <a href="#" class="btn btn-primary" @click="backToDoing(todo.todo)">Back</a>
